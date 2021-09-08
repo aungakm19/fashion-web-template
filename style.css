@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+}
+html{
+	overflow-x: hidden;
+}
+.body{
+	background: linear-gradient(to right, #89fffd, #ef32d9); 
+}
+/*dark mode*/
+.dark-mode{
+	background: black;
+	color: white;
+}
+.dark-mode1{
+	color: #f49880;
+}
+.dark-bg{
+	border-radius: 40px;
+	background: linear-gradient(to right, #434343, #000000); 
+}
+.navbgdark{
+	background: linear-gradient(to right, #434343, #000000);
+}
+.copyright-dark{
+	background: linear-gradient(to right, #434343, #000000);
+}
+/*end dark mode*/
+
+/*home section*/
+.dark{
+	margin: 0px 10px;
+	cursor: pointer;
+	font-size: 18px;
+	color: ;
+	text-transform: uppercase;
+}
+.dark label{
+	cursor: pointer;
+}
+.logotxt{
+	color: #ff00ff;
+	font-family: 'Pacifico', cursive;
+}
+.nav-item a{
+	padding: 8px;
+	margin: 0px 8px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	color: #ff00ff;
+	cursor: pointer;
+	transition: 0.6s;
+	display: inline;
+}
+.nav-item a:hover{
+	font-size: 20px;
+	border-radius: 20px;
+	color: white;
+}
+.navbar-toggler{
+	border: 2px solid red;
+}
+
+nav{
+	background: linear-gradient(to right, #1565C0, #b92b27); 
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 550px;
+	transition: 1s;
+}
+.carousel-item img:hover{
+	filter: brightness(1.1);
+	transform: scale(1.1);
+
+}
+.akmcaroucsel{
+	margin: 60px 0 10px 0;
+}
+.home-section h1{
+	font-family: 'Pacifico', cursive;
+	color: ;
+}
+.carousel-inner .carousel-caption{
+	margin: 0 0 150px 0;
+
+}
+.carousel-caption h3{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ff00ff;
+}
+.carousel-caption p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+.carousel .carousel-indicators button{
+	border: 2px solid white;
+	width: 10px;
+  	height: 10px;
+  	border-radius: 100%;
+}
+
+.carousel .carousel-indicators button.active {
+	background-color: black;
+}
+.home-section p{
+	line-height: 1.5;
+	font-size: 18px;
+	text-align: center;
+}
+/*end home section*/
+/*item section*/
+.item-section .button-group button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	border-radius: 20px;
+	color: #4070f4;
+	font-size: 18px;
+	margin: 0 7px;
+	transition: 0.5s;
+	font-weight: 700;
+}
+.item-section .button-group button:hover{
+	font-size: 17px;
+	color: red;
+}
+
+
+.img img{
+	border-radius: 30%;
+	width: 230px;
+	height: 250px;
+	transition: 0.3s;
+}
+.img img:hover{
+	filter: brightness(1.2) drop-shadow(10px 8px 30px #b1afaf);
+	transform: scale(1.1);
+}
+.img{
+	position: relative;
+}
+.margin{
+	margin: 120px 0px 50px 0;
+}
+
+.img .addtocart{
+	font-weight: 700;
+	border: none;
+	color: rgba(30,72,127,1.00);
+	border-radius: 10px;
+	position: absolute;
+	opacity: 0;
+	margin: 0;
+  	position: absolute;
+  	top: 0%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	transition: 0.5s;
+}
+
+.img:hover .addtocart{
+	top: 50%;
+	opacity: 1;
+}
+/*end item section*/
+/*about section*/
+.about-section img{
+	width: 100%;
+	height: 80%;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+.about-section img:hover{
+	filter: brightness(1.2) drop-shadow(10px 8px 30px #b1afaf);
+	transform:skew(2deg,5deg);
+	/*transform:rotateZ(5deg);*/
+}
+
+.about-section p{
+	line-height: 1.7;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.bold{
+	font-weight: bold;
+}
+/*end about section*/
+/*star cart*/
+.cart-section img{
+	border-radius: 30%;
+	width: 130px;
+	height: 150px;
+}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td {
+	border: none;
+}
+.white{
+	color: #fff;
+}
+.cart-section h4{
+	font-size: 20px;
+	margin-right: 100px;
+}
+
+
+.akkm{
+	border-bottom: 3px solid #ff00ff;
+}
+.confirmbtn{
+	border-radius: 10px;
+	font-size: 22px;
+	border: 2px solid;
+	color: #ff00ff;
+}
+.confirmbtn:hover{
+	color: white;
+	background: #ff00ff;
+	transition: 0.5s;
+}
+/*end cart*/
+/*strat contact*/
+
+.contact-section .block{
+	border-radius: 40px;
+	background: linear-gradient(to right, #ffffff, #abbaab); 
+}
+.contact-section .icon{
+	float: left;
+	padding: 12px;
+	border-radius: 50%;
+	background: #ff00ff;
+	font-size: 30px;
+	margin: 15px 50px 15px 30px;
+}
+.social-links a i{
+	color: #ff00ff;
+}
+/*end contact*/
+/*start copyright*/
+.copyright-section h5{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 0;
+	color: #ff00ff;
+}
+.copyright-section .bg{
+	background: linear-gradient(to right, #1565C0, #b92b27);
+}
+/*end copy right*/
+
+/*media query css*/
+@media (min-width: 576px){
+	.item-section .button-group button{
+		font-size: 17px;
+		margin: 0 5px;
+	}
+	
+}
