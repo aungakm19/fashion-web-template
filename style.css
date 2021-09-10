@@ -7,6 +7,7 @@
 .body{
 	background: linear-gradient(to right, #89fffd, #ef32d9); 
 }
+
 /*dark mode*/
 .dark-mode{
 	background: black;
@@ -101,7 +102,7 @@ nav{
 	border: 2px solid white;
 	width: 10px;
   	height: 10px;
-  	border-radius: 100%;
+  	border-radius: 50%;
 }
 
 .carousel .carousel-indicators button.active {
@@ -113,6 +114,31 @@ nav{
 	text-align: center;
 }
 /*end home section*/
+
+/*about section*/
+.about-section img{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+.about-section img:hover{
+	filter: brightness(1.2);
+	transform:skew(2deg,5deg);
+	/*transform:rotateZ(5deg);*/
+}
+
+.about-section p{
+	line-height: 1.7;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.bold{
+	font-weight: bold;
+}
+/*end about section*/
+
 /*item section*/
 .item-section .button-group button{
 	border: none;
@@ -149,14 +175,13 @@ nav{
 }
 
 .img .addtocart{
+	position: absolute;
 	font-weight: 700;
 	border: none;
 	color: rgba(30,72,127,1.00);
 	border-radius: 10px;
-	position: absolute;
 	opacity: 0;
 	margin: 0;
-  	position: absolute;
   	top: 0%;
   	left: 50%;
   	transform: translate(-50%, -50%);
@@ -168,29 +193,7 @@ nav{
 	opacity: 1;
 }
 /*end item section*/
-/*about section*/
-.about-section img{
-	width: 100%;
-	height: 100%;
-	border-radius: 30px;
-	transition: 0.5s;
-}
-.about-section img:hover{
-	filter: brightness(1.2) drop-shadow(10px 8px 30px #b1afaf);
-	transform:skew(2deg,5deg);
-	/*transform:rotateZ(5deg);*/
-}
 
-.about-section p{
-	line-height: 1.7;
-	font-size: 18px;
-	text-align: justify;
-}
-
-.bold{
-	font-weight: bold;
-}
-/*end about section*/
 /*star cart*/
 .cart-section img{
 	border-radius: 30%;
@@ -224,8 +227,8 @@ nav{
 	transition: 0.5s;
 }
 /*end cart*/
-/*strat contact*/
 
+/*strat contact*/
 .contact-section .block{
 	border-radius: 40px;
 	background: linear-gradient(to right, #ffffff, #abbaab); 
@@ -242,6 +245,7 @@ nav{
 	color: #ff00ff;
 }
 /*end contact*/
+
 /*start copyright*/
 .copyright-section h5{
 	font-size: 16px;
@@ -255,7 +259,7 @@ nav{
 /*end copy right*/
 
 /*media query css*/
-@media (min-width: 576px){
+@media (max-width: 576px){
 	.item-section .button-group button{
 		margin: 0 5px;
 	}
@@ -267,7 +271,7 @@ nav{
 	}
 	
 }
-@media (min-width: 540px){
+@media (max-width: 540px){
 	.item-section .button-group button{
 		font-size: 17px;
 		margin: 0 px;

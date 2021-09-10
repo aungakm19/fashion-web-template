@@ -1,3 +1,4 @@
+// for dark mode
 let a = document.querySelector("#btn")
 	a.onclick = function () {
 	let body = document.querySelector("body")
@@ -30,7 +31,7 @@ let a = document.querySelector("#btn")
 	copyright.classList.toggle("copyright-dark")
 	copyright.classList.toggle("bg")
 }
-
+// end dark mode
 
 
 let allbtn = document.querySelector("#btn1")
