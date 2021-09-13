@@ -5,7 +5,7 @@
 	font-size: 18px;
 }
 .body{
-	background: linear-gradient(to right, #89fffd, #ef32d9); 
+	background: linear-gradient(to right, #c9d6ff, #e2e2e2);
 }
 
 /*dark mode*/
@@ -64,7 +64,7 @@
 }
 
 nav{
-	background: linear-gradient(to right, #1565C0, #b92b27); 
+	background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
 }
 
 .carousel-item img{
@@ -250,16 +250,17 @@ nav{
 .copyright-section h5{
 	font-size: 16px;
 	text-align: center;
-	margin-bottom: 0;
+	margin-top: 5px;
 	color: #ff00ff;
 }
 .copyright-section .bg{
-	background: linear-gradient(to right, #1565C0, #b92b27);
+	background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+	height: 30px;
 }
 /*end copy right*/
 
 /*media query css*/
-@media (max-width: 576px){
+@media (min-width: 576px){
 	.item-section .button-group button{
 		margin: 0 5px;
 	}
@@ -271,10 +272,12 @@ nav{
 	}
 	
 }
-@media (max-width: 540px){
+@media (min-width: 540px){
 	.item-section .button-group button{
 		font-size: 17px;
-		margin: 0 px;
+		margin:0 0;
 	}
 }
+
+
 }
